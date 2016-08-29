@@ -1,0 +1,119 @@
+<!-- zhilaohu.com
+By Alex K. Fong for 纸老虎 The Paper Tigers
+Contents are the copyright of 纸老虎 The Paper Tigers and zhilaohu.com
+This code is open source -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纸老虎 The Paper Tigers</title>
+
+	<!-- More metadata -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="纸老虎 The Paper Tigers band website" />
+	<meta name="author" content="Alex K. Fong" />
+	<meta property="og:type" content="website" />
+    <meta property="og:title" content="纸老虎 The Paper Tigers" />
+    <meta property="og:description" content="纸老虎 The Paper Tigers" />
+    <meta property="og:url" content="http://www.zhilaohu.com" />
+    <meta property="og:site_name" content="纸老虎 The Paper Tigers"/>
+	<meta property="og:image" content="http://www.zhilaohu.com/images/shareimage.jpg"/>
+
+	<!-- Initialize typekit -->
+	<script src="https://use.typekit.net/zff1kwx.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	<!-- Link style sheets -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/mygrid.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+	<!-- CDN call to JQUERY -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Switch to local if access to Google is restricted -->
+	<script>!window.jQuery && document.write('<script src="js/jquery-2.1.4.min.js"><\/script>')</script>
+	
+	<!-- Start up JQuery UI -->
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	<!-- Link to my JavaScript -->
+  	<script src="js/app.js"></script>
+</head>
+<body class="marginAbove20 grid18 center">
+	
+	<!-- Outer div enables tighter composition with next section-->
+	<div class="grid18 floatLeft">
+		<navbar class="grid14 center" id="navbarSection">
+			<div class="grid14 center">
+				<div id="logoMasthead" class="grid2 displayInlineBlock">
+					<img id="logo" class="grid2" src="images/zhilaohu_logo.png">
+				</div>
+				<ul ID="navbarInterface" class="floatRight rightAlignText marginAbove30 capitalize">
+					<li id="aboutButton" class="marginRight20"><a href="#aboutSection">About</a></li>
+					<li id="musicButton" class="marginRight20"><a href="#musicSection">Music</a></li>
+					<li id="mediaButton" class="marginRight20"><a>Media</a></li>
+					<li id="scheduleButton" class="marginRight20"><a>Schedule</a></li>
+					<li id="connectButton" class="marginRight20"><a>Connect</a></li>
+					<li id="chineseButton" class="marginRight20 chinese"><a>中文</a></li>
+				</ul>
+			</div>
+		</navbar>
+	</div>
+
+	<!-- Shift the background picture down -->
+	<div class="emptySpace"></div>
+
+	<!-- The masthead section -->
+	<div id="backgroundDiv" class="grid18">
+		<header class="grid14 center centerText">
+			<h1 class="paddingAbove250 chinese" id="masthead">纸<br>老<br>虎</h1>
+			<h2 id="deck" class="marginAbove30 capitalize">The Paper Tigers<h2>
+			<p id="subhead" class="capitalize">A Beijing rock band</p>
+		</header>
+	</div>
+
+	<!-- Actual honest to goodness content starting here! -->
+	<section id="aboutSection" class="grid10 center marginAbove50 hidden">
+		<h3 class="capitalize centerText">About the band</h3>
+		<p class="bodyCopy">纸老虎 The Paper Tigers are Beijing’s “hottest new indie rock band,” and they are taking China by storm. With an explosive and “danceable” sound reminiscent of The Clash and The Cure meets Block Party and The Arctic Monkeys, the band’s original new music is the creation of experienced and successful musicians from four continents forged together in Beijing’s booming underground scene.</p>
+		<p class="bodyCopy">Hailing from China, the US, Europe and Australia, the band’s four members (including Joseph Catanzaro, former lead singer of Australian punk rockers Unpaid Debt) boast award winning musical experience in their home countries and abroad that includes international touring experience, a swag of big name supports, high rotation radio play, film clips broadcast on national networks and record sales topping 10,000.</p>
+	</section>
+
+	<section id="musicSection" class="grid10 center marginAbove100 hidden">
+		<h3 class="capitalize centerText">Music</h3>
+		<p class="bodyCopy centerText">This section is currently under construction</p>
+	</section>
+	
+	<section id="mediaSection" class="grid10 center marginAbove100 hidden">
+		<h3 class="capitalize centerText">Media</h3>
+		<embed src='http://player.youku.com/player.php/sid/XMTUzMTA0NjQzNg==/v.swf' allowFullScreen='true' quality='high' width='500' height='416' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+	</section>
+	
+	<section id="scheduleSection" class="grid10 center marginAbove100 hidden">
+		<h3 class="capitalize centerText">Schedule</h3>
+		<p class="bodyCopy centerText">This section is currently under construction</p>
+	</section>
+	
+	<section id="connectSection" class="grid10 center marginAbove100 hidden">
+		<h3 class="capitalize centerText">Connect</h3>
+		<p class="bodyCopy centerText">This section is currently under construction</p>
+	</section>
+	
+	<footer class="marginAbove50 paddingAbove50 paddingBelow50 center">
+		<ul id="navbarFooter" class="grid10 center centerText capitalize hidden">
+			<li id="aboutButton" class="marginRight20"><a href="#aboutSection">About</a></li>
+			<li id="musicButton" class="marginRight20"><a href="#musicSection">Music</a></li>
+			<li id="mediaButton" class="marginRight20"><a href="#mediaSection">Media</a></li>
+			<li id="scheduleButton" class="marginRight20"><a href="#scheduleSection">Schedule</a></li>
+			<li id="chinaButton"><a>中文</a></li>
+		</ul>
+		<p class="finePrint centerText marginAbove10">Copyright 纸老虎 The Paper Tigers and zhilaohu.com 2016 with all rights reserved, unless stated otherwise</p>
+	</footer>
+</body>
+</html>

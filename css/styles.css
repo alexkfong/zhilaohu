@@ -1,0 +1,172 @@
+/*
+Styles.css
+by Alex K. Fong
+This is the CSS for zhilaohu.com, the website of 纸老虎 The Paper Tigers
+This code is open source
+*/
+
+html {  
+  /*Enable anti-aliasing for typography in current browsers*/
+  -webkit-font-smoothing: antialiased;
+  
+  /*Enable anti-aliasing for typography in current browsers*/
+  -webkit-font-smoothing: antialiased;
+}
+
+html, head, body, section, div, header, footer, 
+h1, h2, h3, h4, h5, h6, p, li, ul, a, span, img, div, section {
+  font-family: "bodoni-urw", serif;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+p, li, ul, a, span { 
+  color: rgba(255, 255, 255, 0.5); 
+  font-weight: 400;
+}
+
+body {
+  background-color: black;
+}
+
+#backgroundDiv {
+  background-image: url("file:///Users/alexkfong/Desktop/Design-Work-Archive/website/zhilaohu/images/zhilaohu_main4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 100);
+  
+  /*transition effects*/
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+/*general rules for typography*/
+.centerText {
+  text-align: center;
+}
+
+.rightAlignText {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.chinese {
+  font-family: "source-han-sans-simplified-c", sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.colorRed {
+  color: #CE181E;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+/*other general rules*/
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.circle {
+  height: 50px;
+
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; 
+  -khtml-border-radius: 50px;
+  border: 3px solid #CE181E;
+}
+
+/* specific rules */
+
+#masthead {
+  font-size: 7.5rem;
+  font-weight: 900;
+  color: white;  
+  line-height: 7.5rem;
+}
+
+.bodyCopy {
+  margin-top: 15px;
+  font-family: "depot-new-web", sans-serif;
+  line-height: 1.6rem;
+  color: white;
+}
+
+.emptySpace {
+  height: 40px;
+}
+
+#logoMasthead {
+  padding-bottom: -100px;
+}
+
+#logo {
+  width: 100px;
+}
+
+#navbarInterface > li {
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+#navbarFooter > li {
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+#navbarFooter > li > a {
+  font-family: "depot-new-web", sans-serif;
+}
+
+#deck {
+ font-weight: 400;
+ font-size: 1.5rem;
+}
+
+#subhead {
+  font-size: 1rem;
+}
+
+.finePrint {
+  font-family: "depot-new-web", sans-serif;
+  font-size: 0.7em;
+  color: white;
+}

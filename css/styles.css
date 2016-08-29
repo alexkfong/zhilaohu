@@ -156,6 +156,10 @@ a, a:visited {
   font-family: "depot-new-web", sans-serif;
 }
 
+#connectSection > ul {
+  margin-top: 15px;
+}
+
 #connectSection > ul > li {
   font-family: "depot-new-web", sans-serif;
   display: inline-block;

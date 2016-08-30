@@ -38,21 +38,32 @@ $(document).ready( function() {
 		// Display the section. Chinese part handled separately
 		if( whichSection !== 'chineseSection' ) {
 
-			//Hide the current section if one already opened.
+			// A section is opened ...
 			if( currentSection ) {
-				$( currentSection ).toggle();	
+				
+				//only toggle if a different section is clicked	
+				if( currentSection !== whichSection ) {
+					$( currentSection ).fadeToggle( 'fast', function() {
+						$( whichSection ).fadeToggle( 'fast' );
+					});		
+				}
+				// otherwise do nothing
+		
 			}
 			else if( !currentSection ) {
+
 				//null value captured. Reveal bottom page navigation
-				$( '#navbarFooter' ).toggle();
+				$( '#navbarFooter' ).fadeToggle( 'fast' );
+				$( whichSection ).fadeToggle( 'fast' );
+			
 			}
 			else {
+			
 				// something went wrong with the currentSection variable
 				console.log('Exception thrown: currentSection not found');
+			
 			}
 			
-			$( whichSection ).toggle();
-
 			currentSection = whichSection;
 
 		}

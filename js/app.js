@@ -48,6 +48,10 @@ $(document).ready( function() {
 					});		
 				}
 				// otherwise do nothing
+
+				$('html,body').animate({
+        			scrollTop: $( whichSection ).offset().top
+        		});
 		
 			}
 			else if( !currentSection ) {

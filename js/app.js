@@ -43,8 +43,8 @@ $(document).ready( function() {
 				
 				//only toggle if a different section is clicked	
 				if( currentSection !== whichSection ) {
-					$( currentSection ).fadeToggle( 'fast', function() {
-						$( whichSection ).fadeToggle( 'fast' );
+					$( currentSection ).toggle( function() {
+						$( whichSection ).toggle();
 					});		
 				}
 				// otherwise do nothing
@@ -53,8 +53,8 @@ $(document).ready( function() {
 			else if( !currentSection ) {
 
 				//null value captured. Reveal bottom page navigation
-				$( '#navbarFooter' ).fadeToggle( 'fast' );
-				$( whichSection ).fadeToggle( 'fast' );
+				$( '#navbarFooter' ).toggle( 'fast' );
+				$( whichSection ).toggle( 'fast' );
 			
 			}
 			else {

@@ -33,7 +33,14 @@ body {
 }
 
 #backgroundDiv {
+  
+  /* test site url */
   background-image: url("https://alexkfong.github.io/zhilaohu/images/zhilaohu_main4.jpg");
+  
+  /* real url 
+  background-image: url("http://www.zhilaohu-thepapertigers.com/images/zhilaohu_main4.jpg");
+  */
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -185,4 +192,8 @@ a, a:visited {
   font-family: "depot-new-web", sans-serif;
   font-size: 0.7em;
   color: white;
+}
+
+.finePrint > a {
+  font-family: "depot-new-web", sans-serif;
 }

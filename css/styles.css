@@ -93,6 +93,10 @@ a, a:visited {
   display: inline-block;
 }
 
+.displayBlock {
+  display: block;
+}
+
 .hidden {
   display: none;
 }

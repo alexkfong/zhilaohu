@@ -168,10 +168,12 @@ a, a:visited {
   font-family: "depot-new-web", sans-serif;
 }
 
+#mediaSection > ul, 
 #connectSection > ul {
   margin-top: 15px;
 }
 
+#mediaSection > ul > li,
 #connectSection > ul > li {
   font-family: "depot-new-web", sans-serif;
   display: inline-block;

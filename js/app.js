@@ -44,9 +44,7 @@ $(document).ready( function() {
 				//only toggle if a different section is clicked	
 				if( currentSection !== whichSection ) {
 					$( currentSection ).fadeToggle( 'fast', function() {
-						$( whichSection ).fadeToggle( 'fast', function() {
-							$('html,body').animate({ scrollTop: $( whichSection ).offset().top });
-						});
+						$( whichSection ).fadeToggle( 'fast' );
 					});		
 				}
 				// otherwise do nothing

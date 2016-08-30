@@ -44,14 +44,12 @@ $(document).ready( function() {
 				//only toggle if a different section is clicked	
 				if( currentSection !== whichSection ) {
 					$( currentSection ).fadeToggle( 'fast', function() {
-						$( whichSection ).fadeToggle( 'fast' );
+						$( whichSection ).fadeToggle( 'fast', function() {
+							$('html,body').animate({ scrollTop: $( whichSection ).offset().top });
+						});
 					});		
 				}
 				// otherwise do nothing
-
-				$('html,body').animate({
-        			scrollTop: $( whichSection ).offset().top
-        		});
 		
 			}
 			else if( !currentSection ) {

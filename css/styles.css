@@ -34,12 +34,13 @@ body {
 
 #backgroundDiv {
   
-  /* test site url */
+  /* test site url 
   background-image: url("https://alexkfong.github.io/zhilaohu/images/zhilaohu_main4.jpg");
-  
-  /* real url 
-  background-image: url("http://www.zhilaohu-thepapertigers.com/images/zhilaohu_main4.jpg");
   */
+
+  /* real url*/
+  background-image: url("http://www.zhilaohu-thepapertigers.com/images/zhilaohu_main4.jpg");
+  
 
   background-repeat: no-repeat;
   background-size: cover;

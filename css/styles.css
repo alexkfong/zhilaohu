@@ -128,6 +128,11 @@ a, a:visited {
 
 /* specific rules */
 
+.chinese > a {
+  font-family: "source-han-sans-simplified-c", sans-serif;
+  font-weight: 500;
+}
+
 #masthead {
   font-size: 7.5rem;
   font-weight: 900;
@@ -181,9 +186,14 @@ a, a:visited {
  font-size: 1.5rem;
 }
 
-#subhead {
+#subhead,
+#subhead > .chinese {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.5);
+}
+
+#subhead > .chinese {
+  font-size: 1.2rem;
 }
 
 .finePrint {
